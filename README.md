@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Check JSON files
-        uses: obfuscatedgenerated/no-repeat-json-action@v1
+        uses: obfuscatedgenerated/no-repeat-json-action@v1.1
         env:
           JSON_FILES: file.json,another_file.json
 ```
