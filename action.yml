@@ -2,7 +2,7 @@ name: "No Repeat JSON Keys"
 description: "A GitHub action to prevent repeating keys in JSON files."
 runs:
   using: "node16"
-  main: "action.js"
+  main: "./dist/index.js"
 outputs:
   duplicates:
     description: "An object of duplicated JSON keys by files, if found."

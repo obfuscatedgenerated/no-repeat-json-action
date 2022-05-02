@@ -2,7 +2,15 @@
 
 A GitHub action to prevent repeating keys in JSON files.
 
-### Example Workflow
+## Contributing
+
+1. `npm install`
+
+2. Make changes to action.js
+
+3. `npm run build`
+
+## Example Workflow
 
 ```yaml
 name: Check for repeat keys in JSON files
