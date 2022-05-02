@@ -6,7 +6,7 @@ const path = require("path");
 const files = process.env.JSON_FILES.split(",");
 const workspace = process.env.GITHUB_WORKSPACE;
 
-var duplicates = [];
+var duplicates = {};
 
 var numDupes = 0;
 
