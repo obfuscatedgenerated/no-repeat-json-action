@@ -103,3 +103,6 @@ typings/
 .tern-port
 
 .dccache
+
+test.js
+test.json
