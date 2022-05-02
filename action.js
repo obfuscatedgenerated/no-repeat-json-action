@@ -1,5 +1,4 @@
 const core = require("@actions/core");
-const gh = require("@actions/github");
 
 const fs = require("fs");
 const path = require("path");
