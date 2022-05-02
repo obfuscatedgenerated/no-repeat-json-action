@@ -1,0 +1,24 @@
+{
+  "name": "no-repeat-json-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "action.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obfuscatedgenerated/no-repeat-json-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obfuscatedgenerated/no-repeat-json-action/issues"
+  },
+  "homepage": "https://github.com/obfuscatedgenerated/no-repeat-json-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.7.0",
+    "@actions/github": "^5.0.1"
+  }
+}

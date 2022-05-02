@@ -1,0 +1,5 @@
+name: "No Repeat JSON Keys"
+description: "A GitHub action to prevent repeating keys in JSON files."
+runs:
+  using: "node16"
+  main: "action.js"
