@@ -1,5 +1,9 @@
 name: "No Repeat JSON Keys"
 description: "A GitHub action to prevent repeating keys in JSON files."
+author: "obfuscatedgenerated"
+branding:
+  icon: "check-square"
+  color: "orange"
 runs:
   using: "node16"
   main: "./dist/index.js"
