@@ -4,6 +4,8 @@ A GitHub action to prevent repeating keys in JSON files.
 
 ### Example Workflow
 
+`./github/workflows/no-repeat.yml`
+
 ```yaml
 name: Check for repeat keys in JSON files
 on: [pull_request, push]
