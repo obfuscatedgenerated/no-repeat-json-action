@@ -31,5 +31,6 @@ for (let i in files) {
 }
 
 if (numDupes > 0) {
+    core.setOutput("duplicates", JSON.stringify(duplicates));
     core.setFailed(`${numDupes} duplicate keys found in JSON files. Keys duplicated by file: ${duplicates}`);
 }

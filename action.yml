@@ -3,3 +3,6 @@ description: "A GitHub action to prevent repeating keys in JSON files."
 runs:
   using: "node16"
   main: "action.js"
+outputs:
+  duplicates:
+    description: "An object of duplicated JSON keys by files, if found."
