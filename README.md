@@ -12,7 +12,7 @@ A GitHub action to prevent repeating keys in JSON files.
 
 ## Example Workflow
 
-`./github/workflows/no-repeat.yml`
+`./.github/workflows/no-repeat.yml`
 
 ```yaml
 name: Check for repeat keys in JSON files
@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Check JSON files
-        uses: obfuscatedgenerated/no-repeat-json-action@v1.3.1
+        uses: obfuscatedgenerated/no-repeat-json-action@v1.3.2
         env:
           JSON_FILES: file.json,another_file.json
 ```
