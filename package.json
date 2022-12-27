@@ -20,7 +20,7 @@
   "homepage": "https://github.com/obfuscatedgenerated/no-repeat-json-action#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
-    "@vercel/ncc": "^0.34.0",
+    "@vercel/ncc": "^0.36.0",
     "clarinet": "^0.12.5"
   }
 }
