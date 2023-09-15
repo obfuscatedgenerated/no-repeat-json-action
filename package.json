@@ -21,6 +21,6 @@
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@vercel/ncc": "^0.34.0",
-    "clarinet": "^0.12.5"
+    "clarinet": "^0.12.6"
   }
 }
